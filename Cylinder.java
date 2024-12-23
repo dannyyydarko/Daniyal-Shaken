@@ -14,10 +14,4 @@ public class Cylinder {
     public double volume() {
         return Math.PI * radius * radius * height;
     }
-
-    @Override
-    public String toString() {
-        return "Cylinder with radius: " + radius + " and height: " + height;
-    }
 }
-
